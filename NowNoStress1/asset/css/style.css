@@ -1,0 +1,113 @@
+img{
+    width:100%;
+}
+
+
+.container{ 
+    display: flex;
+    flex-direction: column;
+
+    background-repeat: no-repeat;
+    width: 100%;
+}   
+    
+   
+
+header{
+    height: 100px;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}   
+   
+
+footer{
+    height: 100px;
+}
+
+section .acceuil{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#flex-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content:space-around ;
+}
+
+
+
+h2{
+    color: white;
+    font-family: dosis;
+    font-weight: bold;
+    font-size: 2rem;
+}
+input{
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+.input-connexion{
+    border-radius: 30px;;
+}
+
+
+#btn-submit{
+    background-color:#E58D6D;
+    opacity: 83%;
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 150px; /** attention check avec loic */
+
+    font-family: dosis;
+    color: white;
+    font-weight: bold;
+    
+}
+#btn-essai{
+    background-color:#E58D6D;
+    opacity: 83%;
+    padding: 10px;
+    font-size: 1.5rem;
+    width: 150px; /** idem cf loic */
+
+    font-family: dosis;
+    color: white;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-family: dosis;
+}
+
+#fin-form{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+}
+#pasDeCompte{
+    display: flex;
+    flex-direction: column;
+    align-self:flex-end ;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 25%;
+    object-fit: cover;
+
+}
+
+

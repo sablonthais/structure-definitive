@@ -1,0 +1,38 @@
+:root{
+    --classic-btn:#E58D6D;
+    --color-content:white; 
+}
+/**Concernant le fond d'écran*/
+/**************************************************/
+#fondecran {
+    /* Fixe l'image en haut à gauche de la page */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    /* Préserve le ratio de l'image */
+    min-width: 100%;
+    min-height: 100%;
+    
+   }
+#container{
+    font-family: dosis;
+
+    position: absolute;
+    width: 100%;
+
+  
+    
+}
+/** Concernant la header */ 
+/**************************************************/
+header{
+    height: 150px;
+} 
+
+header > div > img{
+    
+    width: 25%;
+    object-fit: cover;
+    padding-left: 2%;
+    padding-top: 2%;
+}
