@@ -7,6 +7,10 @@
     <title>Document</title>
 </head>
 <body>
+
+<?php
+    include_once ("navbar.php");
+?>
     
 </body>
 </html>

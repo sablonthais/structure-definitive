@@ -1,0 +1,11 @@
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: crimson;
+}
+
+
+table, th, td {
+    border:1px solid black;
+  }
